@@ -9,11 +9,11 @@ This project aims to replicate the design of the Amazon website, providing users
 ### Screenshots
 ![image](https://github.com/GarvVirmani/Amazon-Clone/assets/131982472/1a7d1b73-5890-46f8-8bbb-ecac366e2467)
 
-=============================================================================================================
+=============================================================================================
 
 ![image](https://github.com/GarvVirmani/Amazon-Clone/assets/131982472/232b9574-a6e7-4be2-a99f-bc029aa018a2)
 
-=============================================================================================================
+=============================================================================================
 ## Deployment
 
 The Amazon Clone project is deployed and accessible via the following link:
