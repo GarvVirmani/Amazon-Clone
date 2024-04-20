@@ -324,20 +324,60 @@ span {
 
 
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
     .box {
         width: 100%; /* Adjusted width for 576px */
     }
-}
-@media screen and (min-width: 768px) {
-    .box {
-        width: 50%; /* Adjusted width for 768px */
+    .logo{
+        width: 15vw;
+    }
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .hero-msg{
+        margin: auto;
+        font-size: 12px;
+    }
+    .hero-section{
+        height: 20vh;
+    }
+    .search-input{
+        width: 0.9;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) and (max-width:767px){
+    .box {
+        width: 100%; /* Adjusted width for 576px */
+    }
+    .logo{
+        width: 17vw;
+    }
+    .hero-section{
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 25vh;
+    }
+    .hero-msg{
+        margin: auto;
+    }
+}
+@media screen and (min-width: 768px) and (max-width:991px){
+    .box {
+        width: 50%; /* Adjusted width for 768px */
+    }
+    .logo{
+        width: 13vw;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1239px) {
     .box {
         width: 33.33%; /* Adjusted width for 992px */
+    }
+    .logo{
+        width:10vw;
     }
 }
 
@@ -346,4 +386,3 @@ span {
         width: 25%; /* Adjusted width for 1240px */
     }
 }
-
